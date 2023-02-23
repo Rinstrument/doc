@@ -1,0 +1,179 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  page-footer: 
+    left: "Copyright 2023, Michael Kleinsasser" 
+    right: 
+      - icon: github
+        href: https://github.com/
+  title: "theta2"
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Tutorials"
+        file: tutorials.qmd
+      - text: "How-To"
+        file: howto.qmd
+      - text: "Fundamentals"
+        file: fundamentals.qmd
+      - text: "Reference"
+        file: reference.qmd
+
+  sidebar:
+    
+    - title: "Home"
+      search: true
+      border: true
+      pinned: true
+      style: "floating"
+      tools: 
+        - icon: github
+          menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a bug
+            url:  https://code.com
+      contents:
+        - index.qmd
+
+    - title: "Tutorials"
+      search: true
+      border: true
+      pinned: true
+      style: "floating"
+      tools: 
+        - icon: github
+          menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a bug
+            url:  https://code.com
+      contents:
+        - tutorials.qmd
+        - tutorial-1.qmd
+        - tutorial-2.qmd
+
+    - title: "How-To"
+      search: true
+      border: true
+      pinned: true
+      style: "floating"
+      tools: 
+        - icon: github
+          menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a bug
+            url:  https://code.com
+      contents:
+        - howto.qmd
+        # navigation items
+
+    - title: "Fundamentals"
+      search: true
+      border: true
+      pinned: true
+      style: "floating"
+      tools: 
+        - icon: github
+          menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a bug
+            url:  https://code.com
+      contents:
+        - fundamentals.qmd
+        # navigation items
+
+    - title: "Reference"
+      search: true
+      border: true
+      pinned: true
+      style: "floating"
+      tools: 
+        - icon: github
+          menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a bug
+            url:  https://code.com
+      contents:
+        - reference.qmd
+        # navigation items
+  
+  # sidebar:
+  #   - title: "Tutorials"
+  #     backgroud: "light"
+  #     style: "floating"
+  #     search: true
+  #     pinned: true
+  #     border: true
+  #     tools: 
+  #       - icon: github
+  #         menu:
+  #         - text: Source Code
+  #           url:  https://code.com
+  #         - text: Report a bug
+  #           url:  https://code.com
+  #     contents:
+  #       - tutorial1.qmd
+  #       - tutorial2.qmd
+  #       - tutorial3.qmd
+  
+  #   - title: "How-To"
+  #     backgroud: "light"
+  #     style: "floating"
+  #     search: true
+  #     pinned: true
+  #     border: true
+  #     contents:
+  #       - tutorial1.qmd
+  #       - tutorial2.qmd
+  #       - tutorial3.qmd
+  #       - section: "Basics"
+  #       - index.qmd
+    
+    
+    # contents:
+    #   - section: "Basics"
+    #     contents:
+    #       - index.qmd
+    #       - about.qmd
+    #       - about.qmd
+    #   - section: "Layout"
+    #     contents:
+    #       - about.qmd
+    #       - about.qmd
+    #       - about.qmd
+
+
+   # style: "floating"
+    # search: true
+    # border: true
+    # pinned: true
+    # tools: 
+    #   - icon: github
+    #     menu:
+    #       - text: Source Code
+    #         url:  https://code.com
+    #       - text: Report a Bug
+    #         url:  https://bugs.com
+
+format:
+  html:
+    theme: custom.scss
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+
+
+

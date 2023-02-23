@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "R package theta2 for item response theory using Stan."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site # https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/solar.scss # custom theme with this ^ # https://quarto.org/docs/output-formats/html-themes-more.html"
+  },
+  {
+    "objectID": "reference.html",
+    "href": "reference.html",
+    "title": "Reference",
+    "section": "",
+    "text": "Reference"
+  },
+  {
+    "objectID": "howto.html",
+    "href": "howto.html",
+    "title": "How-To",
+    "section": "",
+    "text": "How to?"
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Tutorials landing page!"
+  },
+  {
+    "objectID": "fundamentals.html",
+    "href": "fundamentals.html",
+    "title": "Fundametals",
+    "section": "",
+    "text": "Fundametals"
+  },
+  {
+    "objectID": "tutorial3.html",
+    "href": "tutorial3.html",
+    "title": "Tutorial 3",
+    "section": "",
+    "text": "Tutorial 3"
+  },
+  {
+    "objectID": "tutorial2.html",
+    "href": "tutorial2.html",
+    "title": "Tutorial 2",
+    "section": "",
+    "text": "Tutorial 2"
+  },
+  {
+    "objectID": "tutorial1.html",
+    "href": "tutorial1.html",
+    "title": "Tutorial 1",
+    "section": "",
+    "text": "Tutorial 1"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Home",
+    "section": "Overview",
+    "text": "Overview\nThe R package theta2 is an item response theory modeling software whose purpose is:\n\nFit a variety of IRT models including the univariate, multivariate exploratory and confirmatory, and higher-order confirmatory models\nSpecify regression models in the context of IRT with both fixed and random effects (i.e., mixed modeling)\nSimple model syntax to describe IRT models with and without regression"
+  },
+  {
+    "objectID": "index.html#documentation-source",
+    "href": "index.html#documentation-source",
+    "title": "Home",
+    "section": "Documentation & Source",
+    "text": "Documentation & Source\n\nThe theta2 R package source code can be found at github.com/inirt/theta2\nFull documentation and tutorials can be found at inirt.github.io/doc/"
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "Home",
+    "section": "Installation",
+    "text": "Installation\n\nSince this is an R pacakge, the user first needs to install R from the R project website.\nOnce R is installed, open an R console and install the package from Github using remotes:\n\n# remotes\ninstall.packages(\"remotes\")\n# install from Github\nremotes::install_github(\"inirt/theta2\")\nAlternatively, install from CRAN with:\ninstall.packages(\"theta2\")"
+  }
+]
