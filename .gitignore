@@ -1,12 +1,2 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-src/*.o
-src/*.h
-src/*.cc
-src/*.so
-src/*.dll
-.lintr
-.DS_Store
-.vscode
+/.quarto/
+.vscode/
