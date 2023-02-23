@@ -7,7 +7,6 @@ src/*.h
 src/*.cc
 src/*.so
 src/*.dll
-docs
 .lintr
 .DS_Store
 .vscode
